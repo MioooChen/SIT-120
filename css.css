@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;outline: none;}
+body{
+    font-size: 16px;
+    background: #b4dfef;
+}
+
+.I_con{
+    width: 1200px;
+    margin: 0 auto;position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+}
+
+a:hover {
+    color: #f00;
+    transition: 400ms;
+    text-decoration: none;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: right;
+}
+
+ul:after, 
+
+.Clear:after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.Flex {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.top .Left{
+    font-size: 26PX;
+}
+
+.top {
+    padding: 30px 0;
+}
+
+.top .input input{
+    width: 20em;
+    height:40px;
+    line-height: 40px;
+    padding: 0 15px;
+    border-radius: 40px;
+    border: solid 1px #eee;
+}
+
+.nav{
+    background: #f1f1f1;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.nav a{
+    font-size: 20px;
+    color: #4145a8;
+    margin-left: 40px;
+}
+
+.nav a:hover{
+    background: #4145a8;
+    color: #fff;
+}
+
+.banner{
+    height: 1202px;
+    background: url(images/banner.jpg);
+    background-size: cover;
+}
+
+.banner .I_con{
+    height: 1202px;
+}
+
+.banner button{
+    background:#4145a8;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 30px 100px;
+    position: absolute;
+    right: 160px;
+    bottom: 360px;
+    font-size: 20px;
+}
